@@ -4,7 +4,7 @@ with open('README.md') as f:
 	readme = f.read()
 
 setup_args = {
-	'name': 'pyapi',
+	'name': 'PyAutoWebAPI',
 	'version': '0.0.1',
 	'description': 'A simple way to call APIs from Python',
 	'long_description_content_type': 'text/markdown',
@@ -13,9 +13,9 @@ setup_args = {
 	'packages': find_packages(),
 	'author': 'Nathan Dai',
 	'author_email': 'nathandai2000@gmail.com',
-	'keywords': ['API', 'PyAPI', 'web API'],
-	'url': 'https://github.com/NathanDai5287/PyAPI/',
-	'download_url': 'pypi.org/project/pyapi',
+	'keywords': ['API', 'PyAutoWebAPI', 'web API'],
+	'url': 'https://github.com/NathanDai5287/PyAutoWebAPI',
+	'download_url': 'https://pypi.org/project/pyautowebapi/',
 }
 
 install_requires = [
